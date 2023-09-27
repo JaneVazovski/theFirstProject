@@ -10,6 +10,10 @@ import static java.nio.file.Files.*;
 
 public class TextEncryption {
     public static char[] getYourFileToEncrypt() throws IOException {
+        /* по аналогии с шифровкой, у меня ничего не работает, я просто не знаю как сделать и всё.
+        я поняла то, что ты говорил по поводу отличия шифровки и дешифровки, что они отличаются только одним знаком, это знак сдвига самого,
+        но у меня никак просто не вырисовывается нужный алгоритм написания
+         */
         System.out.println("Введи адрес файла, который нужно зашифровать: ");
         Scanner console = new Scanner(System.in);
         String fileName = console.nextLine();
