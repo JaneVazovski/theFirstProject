@@ -11,17 +11,17 @@ public class Main {
         int userChoice = console.nextInt();
         switch (userChoice) {
             case 1:
-                TextEncryption.getYourFileToEncrypt();
+                TextEncryption.encryption();
                 break;
 
             case 2:
-                TextEncryption.getYourFileToEncrypt(); //decodingWithKey;
+                TextDecodingWithKey.decodingWithKey();
                 break;
             case 3:
-                TextEncryption.getYourFileToEncrypt(); //decodingWithBruteForce;
+                System.out.println("Я не знаю как реализовать этот кейс :( ");
                 break;
             default:
-                System.out.println("Нужно выбрать или 1, или 2, или 3.");
+                System.out.println("Нужно выбрать или 1, или 2.");
         }
     }
 }
